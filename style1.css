@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-style: italic;
+}
+.btn-primary{
+    width:100%;
+    background-color: darkorchid;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color:blueviolet ;
+}
+
+.form-label{
+    font-style: italic;
+    font-weight: bold;
+}
+form{
+    position: left;  
+    margin: 25px;
+    max-width: 35%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
+
+  
+  
+ 

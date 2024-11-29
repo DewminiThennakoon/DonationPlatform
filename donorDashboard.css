@@ -1,0 +1,45 @@
+*{
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    padding:25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    background-color: rgb(155, 12, 143);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.title {
+    font-weight: 200px;
+    letter-spacing: 1px;
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
+.drop-btn {
+    background-color: rgb(155, 12, 143);
+    border-color: rgb(169, 22, 231);
+    border-radius: 3px;   
+    font: weight 6px;
+    color: aliceblue;
+}
+@media only screen and (max-width:500px){
+    form{
+        width: 100%;
+    }
+}
+
